@@ -12,7 +12,7 @@ This project is developed within a virtual machine running **Ubuntu**.
 
 
 <p align="center">
-  <img src="https://github.com/caroldvarela/images/blob/main/Project-etl.png" alt="ETL Project Diagram" />
+  <img src="https://github.com/MuhammadMuazzain/images/blob/main/Project-etl.png" alt="ETL Project Diagram" />
 </p>
 
 
@@ -263,20 +263,20 @@ The main goal of this project is to integrate various technologies and tools to 
 2. **Get Data:**
    - On the home screen, click "Get Data."
      
-   ![image](https://github.com/caroldvarela/images/blob/main/Dashboard_1.png)
+   ![image](https://github.com/MuhammadMuazzain/images/blob/main/Dashboard_1.png)
 3. **Select PostgreSQL:**
    - In the "Get Data" window, choose "PostgreSQL Database" and click "Connect."
 
-   ![image](https://github.com/caroldvarela/images/blob/main/Dashboard_2.png)
+   ![image](https://github.com/MuhammadMuazzain/images/blob/main/Dashboard_2.png)
 4. **Configure the Connection:**
     - In the connection dialog, enter the following information:
       - **Server:** `server_ip:port` (by default, `localhost:5432` if connecting to your local machine).
       - **Database:** The name of the database you want to connect to.
-   ![image](https://github.com/caroldvarela/images/blob/main/workshop2-1.png)
+   ![image](https://github.com/MuhammadMuazzain/images/blob/main/workshop2-1.png)
 
 5. **Authentication:**
     - Select the authentication method "Database" and enter your PostgreSQL username and password.
-   ![image](https://github.com/caroldvarela/images/blob/main/workshop2-2.png)
+   ![image](https://github.com/MuhammadMuazzain/images/blob/main/workshop2-2.png)
 6. **Load Data:**
     - Click "Connect" and if the connection is successful, you will see the available tables in your database. Select the tables you want to import and click "Load."
    - Once your data is loaded into Power BI, you can start creating visualizations. Drag and drop fields from your tables onto the report canvas to create charts, tables, and other visual elements.
