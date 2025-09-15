@@ -1,10 +1,7 @@
 # ETL Project 
 
 Presented by 
-- Jhonatan Steven Morales Hernandez: jhonatan.morales@uao.edu.co
-- Carol Dayana Varela Cortez: carol.varela@uao.edu.co
-- Manuel Alejandro Gruezo manuel.gruezo@uao.edu.co
-
+- Muhammad Muazzain: muhammadmuazzain07@gmail.com
 ## 📝 Introduction
 
 This project integrates various technologies to create a complete data pipeline, from data source collection to real-time visualization. It starts with the selection of **two data sources**: one from a **dataset** and another from an **external API**. The data is processed through an **Apache Airflow DAG**, which handles the **ETL tasks** and stores the resulting **dimensional model** in a database. The project also uses **Apache Kafka** for real-time streaming of metrics from the **fact table**, which are visualized in an interactive **dashboard** built with **Power BI**. To ensure real-time data flow, a **Python application** acts as a Kafka consumer.
